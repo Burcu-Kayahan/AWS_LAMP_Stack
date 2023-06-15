@@ -54,7 +54,7 @@ aws ec2 run-instances --image-id ami-005f9685cb30f234b --instance-type t2.micro 
 
 Nat instance oluşturmak için;
 
-Standart ayarlarda bir Ec2 makina oluşturun Security Group'u seçin ve User Dataya aşağıdaki komutları ekleyin. Bu makinanız Nat instance olarak görev yapacaktır.Network settingsten Edit diyin ve oluşturulan VPC'yi ve Security Group'u seçin
+Standart ayarlarda bir Ec2 makina oluşturun Security Group'u seçin ve User Dataya aşağıdaki komutları ekleyin. Bu makinanız Nat instance olarak görev yapacaktır.Network settingsten Edit seçin ve oluşturulan VPC'yi ve Security Group'u seçin
 
 User-data;
 
@@ -92,7 +92,7 @@ aws ec2 run-instances --image-id ami-005f9685cb30f234b --instance-type t2.micro 
 
 
 Standart ayarlarda bir Ec2 makina oluşturun Wordprees için oluşturduğumuz Security Group'u seçin ve User Dataya aşağıdaki komutları ekleyin. Bu makinanız web sitemizin yayın yapacağı instance olarak görev yapacaktır.
-Network settingsten Edit diyin ve oluşturulan VPC'yi ve Security Group'u seçin
+Network settingsten Edit seçin ve oluşturulan VPC'yi ve Security Group'u seçin
 
 User Data'ya eklenecek script;
 
